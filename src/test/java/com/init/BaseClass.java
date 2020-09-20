@@ -33,7 +33,7 @@ public class BaseClass {
 
 	// @Parameters({ "browser", "url" })
 	@BeforeTest
-	public void browserInit() {
+	public void browserInit() { 
 
 		capability.setJavascriptEnabled(true);
 
